@@ -113,8 +113,13 @@ class CalloutSearchModal extends FuzzySuggestModal<Callout> {
 		super(app);
 		this.plugin = plugin;
 		this.callouts = callouts;
-		this.setPlaceholder("Search for named callouts...");
 		this.action = action;
+
+		if (action == "open") {
+			this.setPlaceholder("Jump to named callouts...");
+		} else if (action == "link") {
+			this.setPlaceholder("Link to named callouts...");
+		}
 
 		this.limit = 10; // TODO make this a setting later
 	}
