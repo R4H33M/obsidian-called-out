@@ -1,0 +1,10 @@
+{
+	"id": "called-out",
+	"name": "Called Out",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Jump and link to named callouts across your notes",
+	"author": "xygzy",
+	"authorUrl": "https://www.cs.princeton.edu/~ri8992/",
+	"isDesktopOnly": true
+}
